@@ -1,3 +1,6 @@
-x=[1,2,3,4,5,6,7]
-for i in range(2,1,-1):
-    print(i)
+n=3
+ans=[[] for _ in range(n)]
+for i in range(n):
+    for _ in range(n):
+        ans[i].append(0) 
+print(ans)
